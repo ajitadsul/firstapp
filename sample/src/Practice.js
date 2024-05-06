@@ -1,8 +1,4 @@
-a='6764798708'
-if(a.match(/^6\d{9}$/)){
-    console.log("Matching")
-}
-else{  
-    console.log("Not Matching")
-}
-
+var a;
+var aa=null;
+console.log(typeof(a))
+console.log(typeof(aa))
