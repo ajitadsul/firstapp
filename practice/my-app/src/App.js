@@ -27,7 +27,7 @@ function App(props) {
   return (
     <>
     <div className="App">
-    <h1>Hello World</h1>
+    <h1>Hello World.................</h1>
       <h1>{dataa[indexx].title}</h1>
       <p>{dataa[indexx].text}</p>
     </div>
