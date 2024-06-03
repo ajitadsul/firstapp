@@ -27,7 +27,6 @@ function App(props) {
   }
   return (
     <div className="App">
-     
       <form>
       <label htmlFor='aa' >Enter ID :&nbsp;</label>
        <input type='text' id="aa" className="abc" name="name1"  onChange={abcc} style={{'backgroundColor':'yellow'}}></input>
@@ -42,9 +41,40 @@ function App(props) {
           <tr><th>ID</th><th>Name</th><th>Button</th></tr>
         </thead>
         <tbody>
-          {data.map((e,i)=>{return (<tr key={e.id}><td>{e.id}</td><td>{e.name}</td>{e.id!=0 &&<td><button type='button' onClick={()=>deletee(i)}>Delete</button></td>}</tr>)})}
+          {data.map((e,i)=>{return (<tr key={e.id}><td>{e.id}</td><td>{e.name}</td>{e.id!='' &&<td><button type='button' onClick={()=>deletee(i)}>Delete</button></td>}</tr>)})}
         </tbody>
        </table>
+       <div>I am in pune
+        okk
+       </div>
+       <textarea rows={5} columns={5}></textarea>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
+       <h1>a</h1>
     </div>
   );
 }
