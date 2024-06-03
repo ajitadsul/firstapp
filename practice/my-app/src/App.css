@@ -23,22 +23,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.custom-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.highlight-canvas {
-  border: 1px solid #000;
-  cursor: crosshair;
-}
-
-.custom-button.highlighted {
-  background-color: yellow; /* Change to your desired highlight color */
-  color: black; /* Change to your desired text color */
-}
 
 .App-link {
   color: #61dafb;
@@ -51,7 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-.calc{
-  margin: 100px;
 }

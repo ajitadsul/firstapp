@@ -2,12 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Demo from './Component/Demo.js'
 import reportWebVitals from './reportWebVitals';
-
+import Authentication from './routes/Authentication.js';
+import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
+import Invalid from './Component/Invalid.js';
+import Home from './Component/Home.js';
+import Profile from './Component/Profile.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App/>}></Route>
+      <Route path="/demo" element={<Demo/>}></Route>
+      <Route path="/Authentication" element={<Authentication/>}></Route>
+      <Route path="/invalid" element={<Invalid/>}></Route>
+      <Route path="/home" element={<Home/>}></Route>
+      <Route path="/profile" element={<Profile/>}></Route>
+    </Routes>
+    
+    </BrowserRouter>
+        
   </React.StrictMode>
 );
 
