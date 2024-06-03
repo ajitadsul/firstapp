@@ -44,8 +44,8 @@ function App(props) {
           {data.map((e,i)=>{return (<tr key={e.id}><td>{e.id}</td><td>{e.name}</td>{e.id!='' &&<td><button type='button' onClick={()=>deletee(i)}>Delete</button></td>}</tr>)})}
         </tbody>
        </table>
-       <div>I am in pune
-        okk
+       <div>
+        Hi Khushi
        </div>
        <textarea rows={5} columns={5}></textarea>
        <h1>a</h1>
