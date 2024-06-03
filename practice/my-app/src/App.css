@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.App{
+  background-color: #61dafb;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+ 
+}
+#add{
+  border: 5px solid red;
+  border-radius: 50px;
+  opacity: 1;
+}
+table,td,tr,th{
+  border: 1px red solid;
+  border-collapse: collapse;
+ 
+}

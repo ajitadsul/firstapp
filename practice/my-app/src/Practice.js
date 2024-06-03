@@ -1,10 +1,8 @@
-console.log("Before");
-setTimeout(()=>console.log("Inside SetTimeout"),1000)
-function abc(){
-    return new Promise((resolve)=>{
-        console.log("ok");
-        resolve("Inside Promise")
-        console.log("then");})
-}
-abc().then((data)=>console.log(data))
-console.log("After");
+'use strict'
+const str1="i am from Pune"
+res=''
+d=str1.split('').reduce((a,i)=>{
+    return i+a;
+},"")
+
+console.log(d);
