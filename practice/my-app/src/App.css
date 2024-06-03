@@ -51,7 +51,7 @@
   opacity: 1;
 }
 table,td,tr,th{
-  border: 1px red solid;
+  border: 1px #b3ff00 solid;
   border-collapse: collapse;
 }
 table,tr,td {
@@ -67,5 +67,5 @@ div::first-letter{
   color: red;
 }
 textarea::first-line{
-  color: yellow;
+  color: orange;
 }
